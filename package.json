@@ -1,0 +1,21 @@
+{
+    "name": "draw-storm",
+    "version": "1.0.0",
+    "description": "A collaborative brain storming application",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "devClient": "npm run dev --workspace=@draw-storm/client",
+        "buildClient": "npm run build --workspace=@draw-storm/client"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Rakesh Noothi",
+        "email": "rakeshnoothi9@gmail.com"
+    },
+    "license": "MIT",
+    "workspaces": [
+        "packages\\server",
+        "packages\\client"
+    ]
+}
